@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Motor imagination and execution with a chronic wireless epidural ECoG BCI (WIMAGINE), one participant with tetraplegia (Pollina et al. 2026)",
+  "description": "Chronic wireless epidural ECoG recordings (WIMAGINE implant) from one participant with incomplete tetraplegia performing executed and imagined right-arm reaching and wrist-extension movements, alone or simultaneously. The derivative release contains 32 channels over left primary motor and sensory cortex, band-pass filtered at 1-250 Hz, across eight sessions, with trial event tables. The data accompany a study on decoupling simultaneous motor imagination and execution through orthogonal neural representations, and are repackaged in iEEG-BIDS.",
+  "methods_description": "A participant with C6 spinal cord injury, implanted with the WIMAGINE wireless epidural ECoG device (64 electrodes per implant, 32 selected from the left implant), performed or imagined right-arm reaching and wrist-extension movements, singly or simultaneously, while seated in front of a screen with instructions and a progress bar. EMG of extensor digitorum and lateral deltoid monitored execution. Signals were sampled at about 585 Hz and band-pass filtered offline (zero-phase 5th-order Butterworth, 1-250 Hz).",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Leonardo Pollina": {
       "orcid": "0009-0007-8648-4091"
@@ -101,6 +106,30 @@
       ]
     }
   },
+  "keywords": [
+    {
+      "term": "ECoG"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "Quadriplegia",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011782"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "epidural electrocorticography"
+    },
+    {
+      "term": "motor cortex"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.18703801",
@@ -159,14 +188,11 @@
       "funder_name": "Fonds de dotation Clinatec"
     }
   ],
-  "title": "Motor imagination and execution with a chronic wireless epidural ECoG BCI (WIMAGINE), one participant with tetraplegia (Pollina et al. 2026)",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "11.29 GB (225 files)"
   ],
@@ -178,40 +204,8 @@
     ".tsv",
     ".vhdr",
     ".vmrk",
-    ".xlsx"
+    ".xlsx",
+    ".yml"
   ],
-  "description": "Band-pass filtered (1-250 Hz) epidural ECoG recordings from a single participant with incomplete tetraplegia, implanted with the chronic wireless WIMAGINE device over left primary motor and sensory cortex. The participant executed or imagined right-arm reaching and wrist-extension movements, singly or simultaneously, across eight sessions. The dataset supports study of how simultaneous motor imagination and execution can be decoupled via orthogonal neural representations, and is a BIDS derivative repackaging of the authors' Zenodo release.",
-  "methods_description": "Thirty-two ECoG channels were recorded at about 585 Hz with the WIMAGINE wireless epidural implant while the participant, seated in front of a screen with instructions and a progress bar, executed or imagined right-arm reaching and wrist-extension movements, singly or simultaneously. EMG of the extensor digitorum and lateral deltoid monitored execution. The authors applied a zero-phase 5th-order Butterworth band-pass filter (1-250 Hz) to each run.",
-  "keywords": [
-    {
-      "term": "Electrocorticography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "Quadriplegia",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D011782"
-    },
-    {
-      "term": "Imagination",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D007092"
-    },
-    {
-      "term": "ECoG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "WIMAGINE"
-    }
-  ],
-  "source_hash": "27b1dac585bf336c1dd7161091756ba5120392566ef1d065b76db4434b2c76c4"
+  "source_hash": "309488f7dada8c9a95c76a9881c84118503f4d374782fd516cd33ab86946fd1e"
 }
