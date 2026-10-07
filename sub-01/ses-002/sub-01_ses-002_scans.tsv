@@ -1,0 +1,15 @@
+filename	acq_time	source_name
+ieeg/sub-01_ses-002_task-mappingre_run-01_desc-bandpass1to250_ieeg.vhdr	n/a	sub-01_ses-002_task-mappingre_run-01_
+ieeg/sub-01_ses-002_task-mappingrewe_run-05_desc-bandpass1to250_ieeg.vhdr	n/a	sub-01_ses-002_task-mappingrewe_run-05_
+ieeg/sub-01_ses-002_task-mappingrewe_run-04_desc-bandpass1to250_ieeg.vhdr	n/a	sub-01_ses-002_task-mappingrewe_run-04_
+ieeg/sub-01_ses-002_task-mappingwe_run-01_desc-bandpass1to250_ieeg.vhdr	n/a	sub-01_ses-002_task-mappingwe_run-01_
+ieeg/sub-01_ses-002_task-mappingrewe_run-08_desc-bandpass1to250_ieeg.vhdr	n/a	sub-01_ses-002_task-mappingrewe_run-08_
+ieeg/sub-01_ses-002_task-mappingrewe_run-02_desc-bandpass1to250_ieeg.vhdr	n/a	sub-01_ses-002_task-mappingrewe_run-02_
+ieeg/sub-01_ses-002_task-mappingrewe_run-03_desc-bandpass1to250_ieeg.vhdr	n/a	sub-01_ses-002_task-mappingrewe_run-03_
+ieeg/sub-01_ses-002_task-mappingrewe_run-06_desc-bandpass1to250_ieeg.vhdr	n/a	sub-01_ses-002_task-mappingrewe_run-06_
+ieeg/sub-01_ses-002_task-mappingrewe_run-07_desc-bandpass1to250_ieeg.vhdr	n/a	sub-01_ses-002_task-mappingrewe_run-07_
+ieeg/sub-01_ses-002_task-mappingrewe_run-01_desc-bandpass1to250_ieeg.vhdr	n/a	sub-01_ses-002_task-mappingrewe_run-01_
+ieeg/sub-01_ses-002_task-baselineeo_run-02_ieeg.vhdr	n/a	Baseline[0] run 2 type eo
+ieeg/sub-01_ses-002_task-baselineec_run-01_ieeg.vhdr	n/a	Baseline[1] run 1 type ec
+ieeg/sub-01_ses-002_task-baselineeo_run-01_ieeg.vhdr	n/a	Baseline[2] run 1 type eo
+ieeg/sub-01_ses-002_task-baselineec_run-02_ieeg.vhdr	n/a	Baseline[3] run 2 type ec

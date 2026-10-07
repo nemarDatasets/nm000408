@@ -1,0 +1,18 @@
+{
+  "age": {
+    "Description": "Age as stated in Pollina et al. 2026",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Sex as stated in Pollina et al. 2026",
+    "Levels": {
+      "M": "male"
+    }
+  },
+  "group": {
+    "Description": "Participant group",
+    "Levels": {
+      "tetraplegia_SCI": "incomplete tetraplegia after C6 spinal cord injury; WIMAGINE implant, clinical trial NCT02550522"
+    }
+  }
+}

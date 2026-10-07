@@ -1,0 +1,31 @@
+Brain Vision Data Exchange Marker File, Version 1.0
+[Common Infos]
+Codepage=UTF-8
+DataFile=sub-01_ses-005_task-mappingdtwe_run-04_desc-bandpass1to250_ieeg.eeg
+
+[Marker Infos]
+; Each entry: Mk<Marker number>=<Type>,<Description>,<Position in data points>,<Size in data points>,<Channel number (0 = marker is related to all channels)>
+Mk1=Stimulus,WE-E + WL-I,7001,1,0
+Mk2=Stimulus,WE-E + WL-I,12843,1,0
+Mk3=Stimulus,WE-E + WL-I,18704,1,0
+Mk4=Stimulus,RE-I + WE-E,24555,1,0
+Mk5=Stimulus,WE-E + WL-I,30407,1,0
+Mk6=Stimulus,WE-E + WL-I,36263,1,0
+Mk7=Stimulus,WE-E + WL-I,42109,1,0
+Mk8=Stimulus,RE-I + WE-E,47951,1,0
+Mk9=Stimulus,WE-E + WL-I,53812,1,0
+Mk10=Stimulus,RE-I + WE-E,59668,1,0
+Mk11=Stimulus,RE-I + WE-E,65512,1,0
+Mk12=Stimulus,RE-I + WE-E,71367,1,0
+Mk13=Stimulus,RE-I + WE-E,77218,1,0
+Mk14=Stimulus,RE-I + WE-E,83069,1,0
+Mk15=Stimulus,WE-E + WL-I,88921,1,0
+Mk16=Stimulus,WE-E + WL-I,94772,1,0
+Mk17=Stimulus,RE-I + WE-E,100623,1,0
+Mk18=Stimulus,WE-E + WL-I,106479,1,0
+Mk19=Stimulus,WE-E + WL-I,112331,1,0
+Mk20=Stimulus,RE-I + WE-E,118181,1,0
+Mk21=Stimulus,RE-I + WE-E,124029,1,0
+Mk22=Stimulus,WE-E + WL-I,129885,1,0
+Mk23=Stimulus,RE-I + WE-E,135732,1,0
+Mk24=Stimulus,RE-I + WE-E,141588,1,0

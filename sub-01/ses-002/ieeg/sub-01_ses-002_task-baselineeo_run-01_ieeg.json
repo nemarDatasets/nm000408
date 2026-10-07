@@ -1,0 +1,29 @@
+{
+  "TaskName": "baselineeo",
+  "TaskDescription": "Baseline recording, type \"eo\" as released (\"eo\" = eyes open per the authors' code)",
+  "InstitutionName": "Clinatec (CEA-LETI and CHU Grenoble Alpes)",
+  "InstitutionAddress": "Grenoble, France",
+  "Manufacturer": "Clinatec / CEA-LETI",
+  "ManufacturersModelName": "WIMAGINE wireless epidural ECoG implant",
+  "SamplingFrequency": 585.137507314219,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": {
+    "ImplantAnalogBandPass": {
+      "Range": "0.5-300 Hz"
+    },
+    "DigitalLowPassFIR": {
+      "Cutoff": "292.8 Hz"
+    }
+  },
+  "iEEGReference": "n/a (as recorded by the implant)",
+  "iEEGPlacementScheme": "WIMAGINE epidural array over left primary motor and sensory cortex; 32 channels as released",
+  "ECOGChannelCount": 32,
+  "SEEGChannelCount": 0,
+  "EEGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "RecordingType": "continuous",
+  "RecordingDuration": 31.60282799999999,
+  "SourceFile": "Data.zip: Data/All_data_BP.pickle [sub-01][ses-002][Baseline][Data][2]"
+}

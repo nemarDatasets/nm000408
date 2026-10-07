@@ -1,0 +1,34 @@
+{
+  "TaskName": "mappingwe",
+  "TaskDescription": "Cued right-arm movement task of Pollina et al. (2026): executed and imagined reaching (RE) and wrist extension (WE) movements, single or simultaneous (dual-task) conditions, paced by an on-screen progress bar. trial_type is the condition label as released (e.g. \"WE-E + WL-I\"); in the paper RE = reaching, WE = wrist extension, E = executed, I = imagined; other codes are not defined in the release. Task label from the release file name.",
+  "InstitutionName": "Clinatec (CEA-LETI and CHU Grenoble Alpes)",
+  "InstitutionAddress": "Grenoble, France",
+  "Manufacturer": "Clinatec / CEA-LETI",
+  "ManufacturersModelName": "WIMAGINE wireless epidural ECoG implant",
+  "SamplingFrequency": 585.137507314219,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "BandPass": {
+      "Range": "1-250 Hz",
+      "Type": "Butterworth, 5th order, zero phase (scipy filtfilt), applied by the authors"
+    }
+  },
+  "HardwareFilters": {
+    "ImplantAnalogBandPass": {
+      "Range": "0.5-300 Hz"
+    },
+    "DigitalLowPassFIR": {
+      "Cutoff": "292.8 Hz"
+    }
+  },
+  "iEEGReference": "n/a (as recorded by the implant; no re-referencing in this file)",
+  "iEEGPlacementScheme": "WIMAGINE epidural array over left primary motor and sensory cortex; 32 channels as released",
+  "ECOGChannelCount": 32,
+  "SEEGChannelCount": 0,
+  "EEGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "RecordingType": "continuous",
+  "RecordingDuration": 309.95107599999994,
+  "SourceFile": "Data.zip: Data/All_data_BP.pickle [sub-01][ses-007][BP_data][1] (sub-01_ses-007_task-mappingwe_run-03_)"
+}

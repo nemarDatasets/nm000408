@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "n/a",
+  "iEEGCoordinateSystemDescription": "No electrode coordinates in the release (the paper shows a reconstruction image only). Names are the WIMAGINE channel labels as released."
+}
