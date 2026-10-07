@@ -1,0 +1,217 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Leonardo Pollina": {
+      "orcid": "0009-0007-8648-4091"
+    },
+    "Lucas Struber": {
+      "orcid": "0000-0002-3890-9100"
+    },
+    "Valeria De Seta": {
+      "orcid": "0000-0001-8796-8775",
+      "affiliations": [
+        {
+          "name": "École Polytechnique Fédérale de Lausanne",
+          "identifier": "https://ror.org/02s376052",
+          "scheme": "ROR"
+        },
+        {
+          "name": "Sapienza University of Rome"
+        },
+        {
+          "name": "Fondazione Santa Lucia",
+          "identifier": "https://ror.org/05rcxtd95",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Eleonora Russo": {
+      "orcid": "0000-0002-6215-6305",
+      "affiliations": [
+        {
+          "name": "Scuola Superiore Sant'Anna",
+          "identifier": "https://ror.org/025602r80",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Serpil Karakas": {
+      "orcid": "0009-0006-9842-7935",
+      "affiliations": [
+        {
+          "name": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+          "identifier": "https://ror.org/00jjx8s55",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Stephan Chabardes": {
+      "orcid": "0000-0002-7930-1476",
+      "affiliations": [
+        {
+          "name": "university hospital of Grenoble"
+        }
+      ]
+    },
+    "Tetiana Aksenova": {
+      "orcid": "0000-0003-4007-2343",
+      "affiliations": [
+        {
+          "name": "CEA Grenoble",
+          "identifier": "https://ror.org/02mg6n827",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Guillaume Charvet": {
+      "orcid": "0000-0003-4938-9419",
+      "affiliations": [
+        {
+          "name": "Laboratoire d'Électronique des Technologies de l'Information",
+          "identifier": "https://ror.org/04mf0wv34",
+          "scheme": "ROR"
+        },
+        {
+          "name": "CEA, LETI - Univ Grenoble Alpes"
+        }
+      ]
+    },
+    "Solaiman Shokur": {
+      "orcid": "0000-0003-2251-7142",
+      "affiliations": [
+        {
+          "name": "EPFL Institute of Bioengineering"
+        }
+      ]
+    },
+    "Silvestro Micera": {
+      "orcid": "0000-0003-4396-8217",
+      "affiliations": [
+        {
+          "name": "Scuola Superiore Sant'Anna",
+          "identifier": "https://ror.org/025602r80",
+          "scheme": "ROR"
+        },
+        {
+          "name": "École Polytechnique Fédérale de Lausanne",
+          "identifier": "https://ror.org/02s376052",
+          "scheme": "ROR"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.18703801",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1038/s41467-026-71234-0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.5281/zenodo.18317718",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000408",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000408",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Bertarelli Foundation"
+    },
+    {
+      "funder_name": "CEA (Recurrent Funding), Carnot Institute CEA-Leti"
+    },
+    {
+      "funder_name": "Fonds de dotation Clinatec (sponsors Malakoff Humanis, Covea, Klesia)"
+    },
+    {
+      "funder_name": "Swiss National Science Foundation",
+      "award_number": "10003473"
+    },
+    {
+      "funder_name": "Italian Ministry of University and Research (MUR)",
+      "award_number": "PE0000006",
+      "award_title": "NRRP project MNESYS"
+    },
+    {
+      "funder_name": "CEA",
+      "award_title": "Recurrent Funding, Carnot Institute CEA-Leti"
+    },
+    {
+      "funder_name": "French Ministry of Health and Research",
+      "award_number": "PHRC 15-124"
+    },
+    {
+      "funder_name": "Fonds de dotation Clinatec"
+    }
+  ],
+  "title": "Motor imagination and execution with a chronic wireless epidural ECoG BCI (WIMAGINE), one participant with tetraplegia (Pollina et al. 2026)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "11.29 GB (225 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".pickle",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".xlsx"
+  ],
+  "description": "Band-pass filtered (1-250 Hz) epidural ECoG recordings from a single participant with incomplete tetraplegia, implanted with the chronic wireless WIMAGINE device over left primary motor and sensory cortex. The participant executed or imagined right-arm reaching and wrist-extension movements, singly or simultaneously, across eight sessions. The dataset supports study of how simultaneous motor imagination and execution can be decoupled via orthogonal neural representations, and is a BIDS derivative repackaging of the authors' Zenodo release.",
+  "methods_description": "Thirty-two ECoG channels were recorded at about 585 Hz with the WIMAGINE wireless epidural implant while the participant, seated in front of a screen with instructions and a progress bar, executed or imagined right-arm reaching and wrist-extension movements, singly or simultaneously. EMG of the extensor digitorum and lateral deltoid monitored execution. The authors applied a zero-phase 5th-order Butterworth band-pass filter (1-250 Hz) to each run.",
+  "keywords": [
+    {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "Quadriplegia",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011782"
+    },
+    {
+      "term": "Imagination",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007092"
+    },
+    {
+      "term": "ECoG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "WIMAGINE"
+    }
+  ],
+  "source_hash": "27b1dac585bf336c1dd7161091756ba5120392566ef1d065b76db4434b2c76c4"
+}
