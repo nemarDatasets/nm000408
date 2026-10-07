@@ -1,3 +1,10 @@
 {
-  "SpatialReference": "n/a: no electrode coordinates in the release"
+  "SpatialReference": "n/a: no electrode coordinates in the release",
+  "anat_label": {
+    "Description": "Cortical area of the channel as assigned by the authors (M1 = primary motor cortex, S1 = primary somatosensory cortex; left hemisphere), from the deposit's source-data workbook Source_Data_File_Main_Figures_Pollina_2026.xlsx, sheet 'Figure 3' (columns Channel/Location; same table in Source_Data_File_Suppl_Figures_Pollina_2026.xlsx sheet 'Figure S5'). n/a: channel not in that table (session 7 recorded the complementary set of 32 electrodes, which the workbook does not label).",
+    "Levels": {
+      "M1": "primary motor cortex",
+      "S1": "primary somatosensory cortex"
+    }
+  }
 }

@@ -1,33 +1,33 @@
-name	x	y	z	size
-L07	n/a	n/a	n/a	n/a
-L27	n/a	n/a	n/a	n/a
-L16	n/a	n/a	n/a	n/a
-L36	n/a	n/a	n/a	n/a
-L05	n/a	n/a	n/a	n/a
-L25	n/a	n/a	n/a	n/a
-L14	n/a	n/a	n/a	n/a
-L34	n/a	n/a	n/a	n/a
-L03	n/a	n/a	n/a	n/a
-L23	n/a	n/a	n/a	n/a
-L12	n/a	n/a	n/a	n/a
-L01	n/a	n/a	n/a	n/a
-L10	n/a	n/a	n/a	n/a
-L21	n/a	n/a	n/a	n/a
-L32	n/a	n/a	n/a	n/a
-L30	n/a	n/a	n/a	n/a
-L41	n/a	n/a	n/a	n/a
-L43	n/a	n/a	n/a	n/a
-L50	n/a	n/a	n/a	n/a
-L52	n/a	n/a	n/a	n/a
-L61	n/a	n/a	n/a	n/a
-L70	n/a	n/a	n/a	n/a
-L72	n/a	n/a	n/a	n/a
-L63	n/a	n/a	n/a	n/a
-L54	n/a	n/a	n/a	n/a
-L74	n/a	n/a	n/a	n/a
-L45	n/a	n/a	n/a	n/a
-L65	n/a	n/a	n/a	n/a
-L56	n/a	n/a	n/a	n/a
-L76	n/a	n/a	n/a	n/a
-L47	n/a	n/a	n/a	n/a
-L67	n/a	n/a	n/a	n/a
+name	x	y	z	size	anat_label
+L07	n/a	n/a	n/a	n/a	M1
+L27	n/a	n/a	n/a	n/a	S1
+L16	n/a	n/a	n/a	n/a	M1
+L36	n/a	n/a	n/a	n/a	S1
+L05	n/a	n/a	n/a	n/a	M1
+L25	n/a	n/a	n/a	n/a	S1
+L14	n/a	n/a	n/a	n/a	M1
+L34	n/a	n/a	n/a	n/a	M1
+L03	n/a	n/a	n/a	n/a	M1
+L23	n/a	n/a	n/a	n/a	M1
+L12	n/a	n/a	n/a	n/a	M1
+L01	n/a	n/a	n/a	n/a	M1
+L10	n/a	n/a	n/a	n/a	M1
+L21	n/a	n/a	n/a	n/a	M1
+L32	n/a	n/a	n/a	n/a	M1
+L30	n/a	n/a	n/a	n/a	M1
+L41	n/a	n/a	n/a	n/a	M1
+L43	n/a	n/a	n/a	n/a	M1
+L50	n/a	n/a	n/a	n/a	M1
+L52	n/a	n/a	n/a	n/a	S1
+L61	n/a	n/a	n/a	n/a	S1
+L70	n/a	n/a	n/a	n/a	S1
+L72	n/a	n/a	n/a	n/a	S1
+L63	n/a	n/a	n/a	n/a	S1
+L54	n/a	n/a	n/a	n/a	S1
+L74	n/a	n/a	n/a	n/a	S1
+L45	n/a	n/a	n/a	n/a	S1
+L65	n/a	n/a	n/a	n/a	S1
+L56	n/a	n/a	n/a	n/a	S1
+L76	n/a	n/a	n/a	n/a	S1
+L47	n/a	n/a	n/a	n/a	S1
+L67	n/a	n/a	n/a	n/a	S1

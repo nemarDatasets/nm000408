@@ -1,2 +1,2 @@
-participant_id	age	sex	group
-sub-01	34	M	tetraplegia_SCI
+participant_id	age	sex	group	diagnosis	implant_type	implanted_hemisphere	n_contacts	regions_sampled
+sub-01	34	M	tetraplegia_SCI	incomplete tetraplegia, C6 spinal cord injury (14 years post-injury at implantation)	epidural ECoG, WIMAGINE wireless implant (64 electrodes per implant)	bilateral implant; only the left implant recorded (right implant malfunction)	32	left M1; left S1

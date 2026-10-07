@@ -14,5 +14,25 @@
     "Levels": {
       "tetraplegia_SCI": "incomplete tetraplegia after C6 spinal cord injury; WIMAGINE implant, clinical trial NCT02550522"
     }
+  },
+  "diagnosis": {
+    "Description": "Clinical condition",
+    "Source": "doi:10.1038/s41467-026-71234-0, Methods 'Participant'"
+  },
+  "implant_type": {
+    "Description": "Device",
+    "Source": "doi:10.1038/s41467-026-71234-0, Methods 'Participant' (WIMAGINE: 64 planar electrodes, 2.3 mm diameter, 4-4.5 mm spacing)"
+  },
+  "implanted_hemisphere": {
+    "Description": "Implant side",
+    "Source": "doi:10.1038/s41467-026-71234-0, Methods 'Participant': 'bilaterally implanted in November 2019' and '32 electrodes from the left implant were selected ... malfunction of the right implant'"
+  },
+  "n_contacts": {
+    "Description": "Channels recorded/deposited",
+    "Source": "doi:10.1038/s41467-026-71234-0, Methods 'Participant'; deposit All_data_BP.pickle 'Channel_labels' (32 labels L01..L76)"
+  },
+  "regions_sampled": {
+    "Description": "Regions of the recorded contacts",
+    "Source": "Source_Data_File_Main_Figures_Pollina_2026.xlsx (deposit), sheet 'Figure 3', panels a/c/d/f, columns 'Channel'/'Location' (same table in Source_Data_File_Suppl_Figures_Pollina_2026.xlsx sheet 'Figure S5')"
   }
 }

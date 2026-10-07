@@ -43,3 +43,19 @@ extensor digitorum and lateral deltoid monitored execution. Condition labels (`t
 ## Licence
 
 CC-BY-4.0, as the source record. Please cite the paper and the Zenodo record.
+
+## Additional metadata and localisation (added 2026-10-08)
+
+Compiled after the upload from the article, its supplement and the source deposit (each statement names its source). Text and sidecar metadata only; no data file was changed.
+
+**Recording system.** WIMAGINE epidural wireless ECoG implant (Clinatec, CEA-LETI/CHU Grenoble Alpes); analog band-pass 0.5-300 Hz in the implant, then a digital low-pass FIR at 292.8 Hz (doi:10.1038/s41467-026-71234-0, Methods 'Data acquisition and signal preprocessing'). The sampling rate is not stated in the paper; the trial tables in the deposit give sample/onset ratios of about 585 Hz (e.g. sample 6995 at 11.95 s; derived, not stated). EMG: 6 bipolar channels (Noraxon Delsys via LabJack) from session 4 (doi:10.1038/s41467-026-71234-0).
+
+**Deposited signals.** All_data_BP.pickle: 'only bandpass filtered in [1,250] Hz'; All_data_preprocessed.pickle: band envelopes (delta..high gamma), 2446 trials x 32 channels x 850 samples (doi:10.1038/s41467-026-71234-0, Data availability; Voyager Jobs ieeg-b3enr-c-pollina-1007220751 and -1007221212).
+
+**Reference scheme.** Offline common median reference across channels (doi:10.1038/s41467-026-71234-0, Methods). The hardware reference of the implant is not stated (n/a).
+
+**Electrode types.** Epidural planar electrodes, 2.3 mm diameter, 4-4.5 mm inter-electrode spacing, 64 per implant; 32 electrodes of the left implant were selected in a checkerboard-like pattern because of radio-link data-rate limits and a malfunction of the right implant (doi:10.1038/s41467-026-71234-0, Methods 'Participant').
+
+**Localisation method.** The implant is over the left primary motor (M1) and sensory (S1) cortices; medical reconstruction images of the implant were made with FreeSurfer, BrainStorm and MeshLab (Fig. 1c) (doi:10.1038/s41467-026-71234-0). Per-channel M1/S1 assignments for all 32 channels are in the deposit's source-data workbook (Source_Data_File_Main_Figures_Pollina_2026.xlsx (deposit), sheet 'Figure 3', panels a/c/d/f, columns 'Channel'/'Location' (same table in Source_Data_File_Suppl_Figures_Pollina_2026.xlsx sheet 'Figure S5')); no coordinates are deposited.
+
+These M1/S1 assignments are now in the `anat_label` column of every session's `electrodes.tsv` (n/a in session 7, which recorded the complementary set of 32 electrodes that the workbook does not label).
