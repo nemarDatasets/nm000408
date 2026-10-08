@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Motor imagination and execution with a chronic wireless epidural ECoG BCI (WIMAGINE), one participant with tetraplegia (Pollina et al. 2026)",
-  "description": "Chronic wireless epidural ECoG recordings (WIMAGINE implant) from one participant with incomplete tetraplegia performing executed and imagined right-arm reaching and wrist-extension movements, alone or simultaneously. The derivative release contains 32 channels over left primary motor and sensory cortex, band-pass filtered at 1-250 Hz, across eight sessions, with trial event tables. The data accompany a study on decoupling simultaneous motor imagination and execution through orthogonal neural representations, and are repackaged in iEEG-BIDS.",
-  "methods_description": "A participant with C6 spinal cord injury, implanted with the WIMAGINE wireless epidural ECoG device (64 electrodes per implant, 32 selected from the left implant), performed or imagined right-arm reaching and wrist-extension movements, singly or simultaneously, while seated in front of a screen with instructions and a progress bar. EMG of extensor digitorum and lateral deltoid monitored execution. Signals were sampled at about 585 Hz and band-pass filtered offline (zero-phase 5th-order Butterworth, 1-250 Hz).",
+  "description": "Chronic wireless epidural electrocorticography (ECoG) recordings from one participant with incomplete C6 tetraplegia implanted with the WIMAGINE device. The participant executed or imagined right-arm reaching and wrist-extension movements, singly or simultaneously (one executed and one imagined), across eight sessions. The derivative release provides 32 left-hemisphere channels over primary motor and sensory cortex, band-pass filtered at 1-250 Hz, with trial events and electrode anatomical labels, repackaged in iEEG-BIDS.",
+  "methods_description": "WIMAGINE wireless epidural ECoG implant (64 planar electrodes, 32 recorded from the left implant over M1/S1) with a 0.5-300 Hz analog band-pass and a 292.8 Hz FIR low-pass, sampled at about 585 Hz. The seated participant followed on-screen instructions to execute or imagine reaching and wrist-extension movements, with EMG monitoring of execution. The authors applied a zero-phase 5th-order Butterworth band-pass of 1-250 Hz.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -108,7 +108,9 @@
   },
   "keywords": [
     {
-      "term": "ECoG"
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     },
     {
       "term": "Brain-Computer Interfaces",
@@ -116,18 +118,21 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "Quadriplegia",
+      "term": "Tetraplegia"
+    },
+    {
+      "term": "Imagination",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D011782"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007092"
     },
     {
       "term": "motor imagery"
     },
     {
-      "term": "epidural electrocorticography"
+      "term": "epidural ECoG"
     },
     {
-      "term": "motor cortex"
+      "term": "iEEG"
     }
   ],
   "related_identifiers": [
@@ -207,5 +212,5 @@
     ".xlsx",
     ".yml"
   ],
-  "source_hash": "309488f7dada8c9a95c76a9881c84118503f4d374782fd516cd33ab86946fd1e"
+  "source_hash": "33c3b83c2023173126e4e971176181a70506696270346b0a5a7c0421edc22439"
 }
