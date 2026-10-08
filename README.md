@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000408-blue)](https://doi.org/10.82901/nemar.nm000408)
+
 # Motor imagination and execution with a chronic epidural ECoG implant (derivative)
 
 Data released with:
