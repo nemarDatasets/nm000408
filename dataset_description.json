@@ -3,15 +3,55 @@
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-4.0",
-  "Authors": ["Leonardo Pollina", "Lucas Struber", "Valeria De Seta", "Eleonora Russo", "Serpil Karakas", "Stephan Chabardes", "Tetiana Aksenova", "Guillaume Charvet", "Solaiman Shokur", "Silvestro Micera"],
+  "Authors": [
+    "Leonardo Pollina",
+    "Lucas Struber",
+    "Valeria De Seta",
+    "Eleonora Russo",
+    "Serpil Karakas",
+    "Stephan Chabardes",
+    "Tetiana Aksenova",
+    "Guillaume Charvet",
+    "Solaiman Shokur",
+    "Silvestro Micera"
+  ],
   "Acknowledgements": "Data released by the authors as Zenodo record 10.5281/zenodo.18703801 (code: 10.5281/zenodo.18317718). Recorded within the BCI & Tetraplegia clinical trial NCT02550522 at Clinatec (CEA-LETI and CHU Grenoble Alpes). Repackaged as iEEG-BIDS without further processing for NEMAR.",
   "HowToAcknowledge": "Please cite Pollina L. et al. (2026) Decoupling simultaneous motor imagination and execution via orthogonal ECoG neural representations. Nature Communications, doi:10.1038/s41467-026-71234-0, and the data record doi:10.5281/zenodo.18703801.",
-  "Funding": ["Bertarelli Foundation", "Swiss National Science Foundation (Grant Number 10003473)", "#NEXTGENERATIONEU (NGEU), Italian Ministry of University and Research (MUR), NRRP project MNESYS (PE0000006)", "CEA (Recurrent Funding), Carnot Institute CEA-Leti", "French Ministry of Health and Research (PHRC 15-124)", "Fonds de dotation Clinatec (sponsors Malakoff Humanis, Covea, Klesia)"],
-  "EthicsApprovals": ["ANSM registration 2015-A00650-49; Comite de Protection des Personnes registration 15-CHUG-19; clinical trial NCT02550522 (as stated in Pollina et al. 2026)"],
-  "ReferencesAndLinks": ["https://doi.org/10.1038/s41467-026-71234-0", "https://doi.org/10.5281/zenodo.18703801", "https://doi.org/10.5281/zenodo.18317718", "https://clinicaltrials.gov/study/NCT02550522"],
-  "SourceDatasets": [{"DOI": "doi:10.5281/zenodo.18703801", "URL": "https://zenodo.org/records/18703801", "Version": "published 2026-02-19"}],
+  "Funding": [
+    "Bertarelli Foundation",
+    "Swiss National Science Foundation (Grant Number 10003473)",
+    "#NEXTGENERATIONEU (NGEU), Italian Ministry of University and Research (MUR), NRRP project MNESYS (PE0000006)",
+    "CEA (Recurrent Funding), Carnot Institute CEA-Leti",
+    "French Ministry of Health and Research (PHRC 15-124)",
+    "Fonds de dotation Clinatec (sponsors Malakoff Humanis, Covea, Klesia)"
+  ],
+  "EthicsApprovals": [
+    "ANSM registration 2015-A00650-49; Comite de Protection des Personnes registration 15-CHUG-19; clinical trial NCT02550522 (as stated in Pollina et al. 2026)"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1038/s41467-026-71234-0",
+    "https://doi.org/10.5281/zenodo.18703801",
+    "https://doi.org/10.5281/zenodo.18317718",
+    "https://clinicaltrials.gov/study/NCT02550522"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5281/zenodo.18703801",
+      "URL": "https://zenodo.org/records/18703801",
+      "Version": "published 2026-02-19"
+    }
+  ],
   "GeneratedBy": [
-    {"Name": "Authors' preprocessing (Pollina et al. 2026; Preprocessing.py perform_BP_all_data)", "Description": "Zero-phase 5th-order Butterworth band-pass 1-250 Hz of each experimental run (BP_data); channel reordering by label", "CodeURL": "https://doi.org/10.5281/zenodo.18317718"},
-    {"Name": "b3w1_convert_pollina.py (ieeg-nemar-20261005 campaign, batch 3)", "Description": "Format conversion only (BrainVision float32, events from Trials_info)"}
-  ]
+    {
+      "Name": "Authors' preprocessing (Pollina et al. 2026; Preprocessing.py perform_BP_all_data)",
+      "Description": "Zero-phase 5th-order Butterworth band-pass 1-250 Hz of each experimental run (BP_data); channel reordering by label",
+      "CodeURL": "https://doi.org/10.5281/zenodo.18317718"
+    },
+    {
+      "Name": "b3w1_convert_pollina.py (ieeg-nemar-20261005 campaign, batch 3)",
+      "Description": "Format conversion only (BrainVision float32, events from Trials_info)"
+    }
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000408",
+  "Version": "1.0.0"
 }
