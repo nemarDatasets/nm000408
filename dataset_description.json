@@ -1,5 +1,5 @@
 {
-  "Name": "Pollina-2026-decoupling-10.1038/s41467-026-71234-0",
+  "Name": "Motor imagination and execution with a chronic wireless epidural ECoG BCI (WIMAGINE), one participant with tetraplegia (Pollina et al. 2026)",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-4.0",
@@ -53,5 +53,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000408",
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }
