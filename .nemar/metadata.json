@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Motor imagination and execution with a chronic wireless epidural ECoG BCI (WIMAGINE), one participant with tetraplegia (Pollina et al. 2026)",
-  "description": "Chronic wireless epidural electrocorticography (ECoG) recordings from one participant with incomplete C6 tetraplegia implanted with the WIMAGINE device. The participant executed or imagined right-arm reaching and wrist-extension movements, singly or simultaneously (one executed and one imagined), across eight sessions. The derivative release provides 32 left-hemisphere channels over primary motor and sensory cortex, band-pass filtered at 1-250 Hz, with trial events and electrode anatomical labels, repackaged in iEEG-BIDS.",
-  "methods_description": "WIMAGINE wireless epidural ECoG implant (64 planar electrodes, 32 recorded from the left implant over M1/S1) with a 0.5-300 Hz analog band-pass and a 292.8 Hz FIR low-pass, sampled at about 585 Hz. The seated participant followed on-screen instructions to execute or imagine reaching and wrist-extension movements, with EMG monitoring of execution. The authors applied a zero-phase 5th-order Butterworth band-pass of 1-250 Hz.",
+  "title": "Pollina-2026-decoupling-10.1038/s41467-026-71234-0",
+  "description": "This derivative iEEG-BIDS dataset contains band-pass filtered (1-250 Hz) epidural ECoG recordings from a participant with incomplete tetraplegia implanted with the WIMAGINE wireless device. The participant executed or imagined right-arm reaching and wrist-extension movements, alone or simultaneously. The data support the study of decoupling simultaneous motor imagination and execution through orthogonal neural representations over primary motor and sensory cortex.",
+  "methods_description": "Thirty-two channels of a left epidural WIMAGINE ECoG implant were recorded at about 585 Hz across eight sessions, with EMG monitoring of execution. The authors applied a zero-phase 5th-order Butterworth band-pass filter (1-250 Hz). The participant performed or imagined reaching and wrist-extension movements, singly or simultaneously, guided by on-screen instructions. Data were converted to BrainVision format with events taken from the trial tables.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -113,26 +113,22 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     },
     {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+      "term": "ECoG"
     },
     {
-      "term": "Tetraplegia"
-    },
-    {
-      "term": "Imagination",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D007092"
+      "term": "iEEG"
     },
     {
       "term": "motor imagery"
     },
     {
-      "term": "epidural ECoG"
+      "term": "motor execution"
     },
     {
-      "term": "iEEG"
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "tetraplegia"
     }
   ],
   "related_identifiers": [
@@ -212,5 +208,5 @@
     ".xlsx",
     ".yml"
   ],
-  "source_hash": "33c3b83c2023173126e4e971176181a70506696270346b0a5a7c0421edc22439"
+  "source_hash": "57383cf9b8263efbc26b4d95e22a4854b932655e3047326f7e88880d4867f6e2"
 }
