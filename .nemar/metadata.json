@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Pollina-2026-decoupling-10.1038/s41467-026-71234-0",
+  "title": "Motor imagination and execution with a chronic wireless epidural ECoG BCI (WIMAGINE), one participant with tetraplegia (Pollina et al. 2026)",
   "description": "This derivative iEEG-BIDS dataset contains band-pass filtered (1-250 Hz) epidural ECoG recordings from a participant with incomplete tetraplegia implanted with the WIMAGINE wireless device. The participant executed or imagined right-arm reaching and wrist-extension movements, alone or simultaneously. The data support the study of decoupling simultaneous motor imagination and execution through orthogonal neural representations over primary motor and sensory cortex.",
   "methods_description": "Thirty-two channels of a left epidural WIMAGINE ECoG implant were recorded at about 585 Hz across eight sessions, with EMG monitoring of execution. The authors applied a zero-phase 5th-order Butterworth band-pass filter (1-250 Hz). The participant performed or imagined reaching and wrist-extension movements, singly or simultaneously, guided by on-screen instructions. Data were converted to BrainVision format with events taken from the trial tables.",
   "license": "CC-BY-4.0",
@@ -208,5 +208,5 @@
     ".xlsx",
     ".yml"
   ],
-  "source_hash": "57383cf9b8263efbc26b4d95e22a4854b932655e3047326f7e88880d4867f6e2"
+  "source_hash": "40d35d1ac35a227ceef3beac18a791e1883a68c35e15078b1e17e4a42fe5ddc1"
 }
